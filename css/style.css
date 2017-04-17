@@ -48,11 +48,11 @@ img {
 
 /* change font for all h3 and p tags */
 h2, h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 p {
-	font-family: 'Indie Flower', cursive;
+	font-family: "Indie Flower", cursive;
 }
 
 /* Responsive CSS below: */
