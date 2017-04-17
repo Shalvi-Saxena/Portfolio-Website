@@ -1,0 +1,84 @@
+/*
+	Breakpoints: 415, 450, 750
+*/
+
+* {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+footer {
+	text-align: center;
+	 font-family: 'Roboto', sans-serif;
+   margin: 20px 0px 20px;
+}
+
+img {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.title-logo {
+	max-width: 100px;
+	max-height: 100px;
+	margin: auto;
+}
+
+.line {
+	border-style: solid;
+	border-color: #7d97ad; 
+	border-width: 5px 0px 0px 0px;
+}
+
+.project-image {
+	max-width: 400px;
+	max-height: 400px;
+	min-width: 100px;
+	margin: 0 auto;
+}
+
+.my-pic {
+    max-width: 200px;
+    max-height: 200px;
+	margin: auto;
+}
+
+
+/* change font for all h3 and p tags */
+h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-family: 'Indie Flower', cursive;
+}
+
+/* Responsive CSS below: */
+
+@media screen and (min-width: 415px) {
+    .introduction-section {
+        height: 11em;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    .introduction-section {
+        height: 10em;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .p1-content, .p2-content {
+        width: 650px;
+    }
+
+    .image img {
+        width: 700px;
+    }
+
+    .introduction-section {
+        width: 500px;
+    }
+}
